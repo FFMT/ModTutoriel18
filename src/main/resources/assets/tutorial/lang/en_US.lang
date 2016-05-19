@@ -1,0 +1,3 @@
+item.tutorial.name=Tutorial Item
+item.tutorial.click.message=You are in the dimension %d
+tile.tutorial.name=Tutorial Block

@@ -1,14 +1,15 @@
-package fr.minecraftforgefrance.tutorial;
+package fr.minecraftforgefrance.tutorial.server;
 
 import java.io.File;
 
-public class TutorialClient extends TutorialCommon
+import fr.minecraftforgefrance.tutorial.TutorialCommon;
+
+public class TutorialServer extends TutorialCommon
 {
     @Override
     public void preInit(File configFile)
     {
         super.preInit(configFile);
-        System.out.println("pre init côté client");
     }
 
     @Override
@@ -16,4 +17,5 @@ public class TutorialClient extends TutorialCommon
     {
         super.init();
     }
+
 }

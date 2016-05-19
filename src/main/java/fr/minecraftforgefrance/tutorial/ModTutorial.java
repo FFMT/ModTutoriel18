@@ -17,7 +17,7 @@ public class ModTutorial
     @Instance(ModTutorial.MODID)
     public static ModTutorial instance;
     
-    @SidedProxy(clientSide = "fr.minecraftforgefrance.tutorial.TutorialClient", serverSide = "fr.minecraftforgefrance.tutorial.TutorialServer")
+    @SidedProxy(clientSide = "fr.minecraftforgefrance.tutorial.client.TutorialClient", serverSide = "fr.minecraftforgefrance.tutorial.server.TutorialServer")
     public static TutorialCommon proxy;
     
     public static Logger logger;
